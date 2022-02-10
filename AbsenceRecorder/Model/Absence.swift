@@ -8,7 +8,7 @@
 import Foundation
 
 
-class Absence {
+class Absence: Codable {
     let takenOn: Date
     var studentAbsences: [StudentAbsence]
     
